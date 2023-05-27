@@ -1,0 +1,12 @@
+kafka:
+  servers:
+    - localhost:9092
+  group: accountConsumer
+
+db:
+  driver: mysql
+  host: localhost
+  user: root
+  password: root
+  port: 3306
+  database: micro
