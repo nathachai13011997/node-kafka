@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const _dirname = path.resolve();
 
-const doc = yaml.load(fs.readFileSync(`${_dirname}\\config.yaml`, 'utf8'));
+const doc = yaml.load(fs.readFileSync(path.join(_dirname, 'config.yaml'), 'utf8'));
 
 module.exports = {
   portApp: 3000,
