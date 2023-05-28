@@ -4,7 +4,7 @@
 
  Requires :  [docker](https://www.docker.com/) and [node.js](https://nodejs.org/en/)
 
-**Server** :  
+**server** :  
 - pull image zookeeper
 	``` bash 
 	docker pull zookeeper 
@@ -25,7 +25,8 @@
 	``` bash
 	docker compose up -d
 	```
-- import file db `bank_account.sql`
+- go to phpMyAdmin `http://localhost:8080/index.php?route=/` import file db `bank_account.sql`
+> Note : phpMyAdmin => username : root , password : root
 		
 **producer** :
 - install node modules
