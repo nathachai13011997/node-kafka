@@ -1,8 +1,8 @@
 const topic = [
-    "OpenAccountEvent",
-    "DepositFundEvent",
-    "WithdrawFundEvent",
-    "CloseAccountEvent"
-]
+  "OpenAccountEvent",
+  "DepositFundEvent",
+  "WithdrawFundEvent",
+  "CloseAccountEvent",
+];
 
 module.exports = topic;

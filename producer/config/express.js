@@ -7,5 +7,4 @@ module.exports = async (app) => {
 
   // Custom Response Format
   app.use(require("../services/responseFormat.service"));
-
-}
+};

@@ -1,4 +1,4 @@
 kafka:
   servers:
-    - localhost:9092
+    - localhost:9094
   group: accountConsumer
