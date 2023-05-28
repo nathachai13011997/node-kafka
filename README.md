@@ -47,6 +47,8 @@
 	``` bash
 	npm run start
 	```
+## Architecture	
+![alt text](https://github.com/nathachai13011997/node-kafka/blob/main/architecture.png?raw=true)
 
 ## Credit
 [CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
