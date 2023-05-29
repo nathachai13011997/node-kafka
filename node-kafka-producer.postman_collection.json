@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "f24c451c-855d-45b5-810b-1dfbbd7770a6",
+		"name": "node-kafka-producer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14307641",
+		"_collection_link": "https://lively-star-688485.postman.co/workspace/My-Workspace~46da3d0d-801b-4181-88ae-bdf82fe64c2a/collection/14307641-f24c451c-855d-45b5-810b-1dfbbd7770a6?action=share&creator=14307641&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "producer",
+			"item": [
+				{
+					"name": "openAccountEvent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"account_holder\": \"bank\",\r\n    \"account_type\": 1,\r\n    \"balance\": 1500\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/openaccountevent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"openaccountevent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "depositFundEvent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"625c59f6-a3c3-43d7-90e9-0a4a2c83b8fe\",\r\n    \"balance\": 200\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/depositfundevent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"depositfundevent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "withdrawFundEvent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"625c59f6-a3c3-43d7-90e9-0a4a2c83b8fe\",\r\n    \"balance\": 500\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/withdrawfundevent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"withdrawfundevent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "closeAccountEvent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"625c59f6-a3c3-43d7-90e9-0a4a2c83b8fe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/closeaccountevent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"closeaccountevent"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

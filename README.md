@@ -56,6 +56,11 @@ Learners want to upskill and understand kafka. Still concepts based on the conte
 	``` bash
 	npm run start
 	```
+
+**postman** : 
+- go to Postman import file api `node-kafka-producer.postman_collection.json`
+
+
 ## Architecture	
 ![alt text](https://github.com/nathachai13011997/node-kafka/blob/main/architecture.png?raw=true)
 
