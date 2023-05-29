@@ -6,6 +6,7 @@ In this project, practice using kafka as follows [CodeBangkok](https://www.youtu
  Requires :  [docker](https://www.docker.com/) and [node.js](https://nodejs.org/en/)
 
 **server** :  
+- open terminal or cmd
 - pull image zookeeper
 	``` bash 
 	docker pull zookeeper 
@@ -31,6 +32,7 @@ In this project, practice using kafka as follows [CodeBangkok](https://www.youtu
 > Note : phpMyAdmin => username : root , password : root
 		
 **producer** :
+- open terminal or cmd
 - cd ...\node-kafka\producer
 - install node modules
 	``` bash
@@ -42,6 +44,7 @@ In this project, practice using kafka as follows [CodeBangkok](https://www.youtu
 	```
 
 **consumer** :
+- open terminal or cmd
 - cd ...\node-kafka\producer
 - install node modules
 	``` bash
