@@ -1,6 +1,8 @@
 # NodeJS + Kafka
 In this project, practice using kafka as follows [CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
 
+Learners want to upskill and understand kafka. Still concepts based on the content taught. But there is a change Tools that fit yourself
+
 ## Install and Run Project
 
  Requires :  [docker](https://www.docker.com/) and [node.js](https://nodejs.org/en/)
@@ -56,3 +58,6 @@ In this project, practice using kafka as follows [CodeBangkok](https://www.youtu
 	```
 ## Architecture	
 ![alt text](https://github.com/nathachai13011997/node-kafka/blob/main/architecture.png?raw=true)
+
+## Credit
+[CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
