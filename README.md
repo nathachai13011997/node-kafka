@@ -1,4 +1,5 @@
 # NodeJS + Kafka
+In this project, practice using kafka as follows [CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
 
 ## Install and Run Project
 
@@ -21,6 +22,7 @@
 	``` bash
 	docker pull phpmyadmin
 	```
+- cd ...\node-kafka\server
 - run file docker compose
 	``` bash
 	docker compose up -d
@@ -29,6 +31,7 @@
 > Note : phpMyAdmin => username : root , password : root
 		
 **producer** :
+- cd ...\node-kafka\producer
 - install node modules
 	``` bash
 	npm install
@@ -39,6 +42,7 @@
 	```
 
 **consumer** :
+- cd ...\node-kafka\producer
 - install node modules
 	``` bash
 	npm install
@@ -49,6 +53,3 @@
 	```
 ## Architecture	
 ![alt text](https://github.com/nathachai13011997/node-kafka/blob/main/architecture.png?raw=true)
-
-## Credit
-[CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
